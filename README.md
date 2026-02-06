@@ -1,6 +1,6 @@
 # DBMS_Class
 
-Project name: QR based lost and found management system
+# Project name: QR based lost and found management system
 
 # Team members
 
