@@ -1,2 +1,10 @@
 # DBMS_Class
-My self shiva i am agraduate student and this repository is from my dbms class
+
+Project name: QR based lost and found management system
+
+# Team members
+
+Valaboju Shiva Kumar Chary
+Divya Sai Sukanya Indala
+Sushmitha Sana
+Satvick Yadlapalli
