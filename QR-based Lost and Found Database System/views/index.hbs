@@ -1,0 +1,19 @@
+<div class="row text-center">
+  <div class="col-sm-12">
+    <h1 style="font-size:50px; font-weight:bold;">QR Lost & Found System</h1>
+    <p style="font-size:20px;">Protect your belongings with smart QR technology</p>
+    <br>
+
+    <img src="/2cropped.jpg" class="img-responsive center-block" width="500">
+
+    <br><br>
+
+    {{#if user}}
+      <a href="/new-item" class="btn btn-success btn-lg">Register New Item</a>
+      <a href="/my-items" class="btn btn-primary btn-lg">View My Items</a>
+    {{else}}
+      <a href="/register" class="btn btn-success btn-lg">Get Started</a>
+      <a href="/login" class="btn btn-primary btn-lg">Login</a>
+    {{/if}}
+  </div>
+</div>
