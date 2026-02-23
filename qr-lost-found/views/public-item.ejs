@@ -1,0 +1,26 @@
+<div class="card shadow p-4">
+
+    <h2 class="mb-3"><%= item.itemName %></h2>
+
+    <p><strong>Description:</strong> <%= item.description %></p>
+    <p><strong>Last Known Location:</strong> <%= item.location %></p>
+
+    <% if (item.status === 'lost') { %>
+
+        <div class="alert alert-danger mt-3">
+            <h5>This item is reported LOST</h5>
+            <p>Please contact the owner:</p>
+
+            <p><strong>Name:</strong> <%= item.user.name %></p>
+            <p><strong>Email:</strong> <%= item.user.email %></p>
+        </div>
+
+    <% } else { %>
+
+        <div class="alert alert-success mt-3">
+            This item is currently safe.
+        </div>
+
+    <% } %>
+
+</div>
