@@ -108,3 +108,5 @@ Each registered item generates a unique QR code. When scanned, it directs the fi
 
 VALABOJU SHIVA KUMAR CHARY, DIVYA SAI SUKANYA INDALA, SUSHMITHA SANA, SATVICK YADLAPALLI
 DBMS 4560/5560 Semester Project
+
+# Github Link : https://github.com/2000031041-ShivaChary196/DBMS_Class
